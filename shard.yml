@@ -1,0 +1,12 @@
+name: hello
+version: 0.1.0
+
+authors:
+  - Oliver Wang <yuesefa@gmail.com>
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: sdogruyol/kemal
+    branch: master
