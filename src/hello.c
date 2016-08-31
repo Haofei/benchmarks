@@ -19,7 +19,7 @@ int main() {
 
    address.sin_family = AF_INET;
    address.sin_addr.s_addr = INADDR_ANY;
-   address.sin_port = htons(15000);
+   address.sin_port = htons(8000);
 
    if (bind(create_socket, (struct sockaddr *) &address, sizeof(address)) == 0){
       printf("Binding Socket\n");
